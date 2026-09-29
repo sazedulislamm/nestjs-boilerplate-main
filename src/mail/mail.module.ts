@@ -1,6 +1,6 @@
 import { MailerModule } from '@nestjs-modules/mailer';
 import { Global, Module } from '@nestjs/common';
-import { EjsAdapter } from '@nestjs-modules/mailer/dist/adapters/ejs.adapter';
+import { EjsAdapter } from '@nestjs-modules/mailer/adapters/ejs.adapter';
 import { MailService } from './mail.service';
 import appConfig from '../config/app.config';
 import { BullModule } from '@nestjs/bullmq';
@@ -23,7 +23,7 @@ import { MailProcessor } from './processors/mail.processor';
       },
       defaults: {
         from: appConfig().mail.from,
-      },
+      } as any,
       template: {
         // dir: join(__dirname, 'templates'),
         dir: process.cwd() + '/dist/mail/templates/',

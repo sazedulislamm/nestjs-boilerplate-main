@@ -15,7 +15,7 @@
                   "example": {
                     "ok": true,
                     "message": "Server is running",
-                    "appName": "Boilerplate App",
+                    "appName": "Write Xray Reports",
                     "version": "0.0.1",
                     "env": "development",
                     "uptimeSec": 3600
@@ -3391,14 +3391,14 @@
     }
   },
   "info": {
-    "title": "Boilerplate App API",
-    "description": "Boilerplate App API documentation | Maintainer: Sazedul Islam | Contact: sazedul.bdcalling@gmail.com",
+    "title": "Write Xray Reports API",
+    "description": "Write Xray Reports API documentation | Maintainer: Sazedul Islam | Contact: sazedul.bdcalling@gmail.com",
     "version": "1.0.0",
     "contact": {}
   },
   "tags": [
     {
-      "name": "Boilerplate App",
+      "name": "Write Xray Reports",
       "description": ""
     }
   ],
